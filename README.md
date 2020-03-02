@@ -35,6 +35,11 @@ Seguir los siguientes pasos:
  ~~~
   composer install  
  ~~~
+* Desplegar la base de datos en el archivo de variables de entorno (.env)
+ ~~~
+  DB_CONNECTION=sqlite
+  DB_DATABASE=/absolute/path/to/my/database/database/store.sqlite
+ ~~~
 * Ejecutar la aplicación en el navegador aplica sino se utiliza herramientas como Laravel Homebrew o Laragon
  ~~~
   php artisan serve  
@@ -48,6 +53,10 @@ Seguir los siguientes pasos:
 
 - Yickson Ramírez
 - [Mi sitio web](https://yickson.cl)
+
+### Notas adicionales
+
+La base de datos debe estar en el directorio database/database.
 
 ## License
 
