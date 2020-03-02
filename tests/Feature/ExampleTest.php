@@ -5,14 +5,14 @@ namespace Tests\Feature;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class RouteMainTest extends TestCase
 {
     /**
-     * A basic test example.
-     *
+     * Route main webApp
+     * Status 200
      * @return void
      */
-    public function testBasicTest()
+    public function testBasicTestRouteMain()
     {
         $response = $this->get('/');
 
