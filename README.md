@@ -40,6 +40,10 @@ Seguir los siguientes pasos:
   DB_CONNECTION=sqlite
   DB_DATABASE=/absolute/path/to/my/database/database/store.sqlite
  ~~~
+* Correr las migraciones
+~~~
+  php artisan migrate
+ ~~~
 * Ejecutar la aplicación en el navegador aplica sino se utiliza herramientas como Laravel Homebrew o Laragon
  ~~~
   php artisan serve  
